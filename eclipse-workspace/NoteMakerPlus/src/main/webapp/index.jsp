@@ -10,16 +10,19 @@
   </head>
   <body>
 <%@include file="css/all_js_css.jsp" %>
-    <div class="container-fluid">
+    <div class="container">
     <%@include file="Navbar.jsp" %>
     </div>
 <div class = "card py-5">
 <img alt="img not found" src="img/notepad.png" class = "img-fluid mx-auto" style = "max-width:400px">
-<h1 class = "text-primary text-uppercase text-center mt3">Start Taking Your Notes</h1>
+<h1 class = "text-danger text-uppercase text-center mt3">Start Taking Your Notes</h1>
     <div class = "container text-center ">
-<button class = "btn btn-outline-primary text-center mt-4">Start Here</button>
+    <a href="addNote.jsp" class="btn btn-outline-success text-center mt-4">Start Here</a>
 </div>
-
+<div class = "container text-center ">
+    <a href="login.jsp" class = "btn btn-outline-warning text-center mt-4 mr-2">Login</a>
+     <a href="registerUser.jsp" class = "btn btn-outline-danger text-center mt-4 ml-2">Register</a> 
+</div>
 
 </div>
 

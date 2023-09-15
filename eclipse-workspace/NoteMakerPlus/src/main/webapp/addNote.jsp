@@ -8,7 +8,7 @@
 <title>Add Note</title>
 </head>
 <body>
-	<div class = "container-fluid">
+	<div class = "container">
 	<%@include file="Navbar.jsp" %>
 	
 	<!-- This is the form for adding note-->
